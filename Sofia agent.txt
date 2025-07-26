@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sofia – Immigration Assistant</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    iframe {
+      width: 90%;
+      height: 600px;
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+    .note {
+      margin-top: 20px;
+      font-size: 0.95em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>👋 Meet Sofia – Your Friendly Immigration Assistant</h1>
+  <p>Available in English, Spanish, Haitian Creole, and French</p>
+
+  <iframe 
+    src="https://www.genspark.ai/agent?id=a6bd167d-618b-4bd3-b5eb-67351d05fbff" 
+    allow="microphone" 
+    title="Sofia Immigration Agent">
+  </iframe>
+
+  <p class="note">
+    This assistant uses ElevenLabs for voice. Future updates may include language‑specific voices and more accessibility features.
+  </p>
+</body>
+</html>
